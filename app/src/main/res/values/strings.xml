@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Forecast</string>
+    <string name="ok">Ok</string>
+    <string name="internet_problem">Problem with Internet</string>
+    <string name="loading">Loading…</string>
+    <string name="success">Success</string>
+    <string name="wrong">Something went wrong…</string>
+    <string name="please_connect">Please, connect to internet…</string>
+    <string name="you_see">You are able to see tomorrow"'"s weather</string>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="@dimen/nested_recycle_view_height"
+            android:layout_height="@dimen/nested_recycle_view_height"
+            android:background="@drawable/bg_for_nested_items">
+            <TextView
+                android:id="@+id/hour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/nested_tv_margin"
+                android:textSize="@dimen/nested_tv_text_size"
+                android:text="hour"/>
+            <TextView
+                android:id="@+id/temp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="@dimen/nested_tv_margin"
+                android:textSize="@dimen/nested_tv_text_size"
+                android:text="t"/>
+        </RelativeLayout>
+</LinearLayout>

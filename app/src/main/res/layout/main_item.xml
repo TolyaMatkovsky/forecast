@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/city_item_height"
+        android:layout_marginLeft="@dimen/city_item_margin"
+        android:layout_marginRight="@dimen/city_item_margin"
+        android:background="@drawable/bg_for_items">
+        <TextView
+            android:id="@+id/city_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/city_item_name_top_margin"
+            android:text="City_Name"
+            android:textSize="@dimen/city_item_name_text_size"/>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/nested_recycle_view"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/nested_recycle_view_height"
+            android:orientation="horizontal"
+            app:layoutManager="android.support.v7.widget.LinearLayoutManager"
+            android:scrollbars="none"
+            android:overScrollMode="never"
+            android:layout_marginBottom="@dimen/city_item_margin"
+            android:layout_alignParentBottom="true"/>
+
+    </RelativeLayout>
+</LinearLayout>

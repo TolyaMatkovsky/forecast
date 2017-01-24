@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="nested_recycle_view_height">100dp</dimen>
+    <dimen name="city_item_height">180dp</dimen>
+    <dimen name="city_item_margin">20dp</dimen>
+    <dimen name="city_item_name_top_margin">10dp</dimen>
+    <dimen name="nested_tv_margin">10dp</dimen>
+
+    <dimen name="city_item_name_text_size">27sp</dimen>
+    <dimen name="nested_tv_text_size">25sp</dimen>
+</resources>
